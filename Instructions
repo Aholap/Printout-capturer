@@ -1,0 +1,7 @@
+Go to the the project directory in shell, and type make
+This compiles a runnable program by the name example_prog
+The program uses printout capturing library, where it calls a function of the library 
+with the parameter "testaustiedosto" and prints stuff in the main and child process, as well in threads.
+These prints should be captured in the textfile.
+The library itself can be found in the file "output_capture.c". Calling the librarys function "capture_stdout" opens a txtfile
+given as a parameter and writes all stdout to it.
